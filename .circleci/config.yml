@@ -10,9 +10,9 @@ jobs:
     docker:
       - image: 'circleci/openjdk:8-jdk'
         environment:
-          MULE_VERSION: 4.9.0
+          MULE_VERSION: 4.3.0
           MULE_APP_NAME: iSpot
-          MULE_ENV: Sandbox
+          MULE_ENV: local
           MULE_WORKER_TYP: MICRO
           MULE_WORKER: 1
     steps:
